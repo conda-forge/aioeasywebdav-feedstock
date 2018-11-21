@@ -10,7 +10,7 @@ source:
   sha256: 216aa71e76bf810c2293fec93922475a532af999fce89b37b6788f0c237981ee
 
 build:
-  number: 0
+  number: 1000
   script: python setup.py install --single-version-externally-managed --record record.txt
   # this package does not support older Python versions
   skip: true  # [py < 35]
